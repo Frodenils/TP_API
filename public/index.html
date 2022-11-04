@@ -7,7 +7,7 @@
         <title>API</title>
 
         <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script defer src="./index.js"></script>
     </head>
@@ -15,10 +15,9 @@
     <body>
         <div class="container">
                 <h1>Affichage des articles</h1>
-                <div class="inpt">
-                    <div id="api-rawRes"></div>
-                </div>
-                <button class="btn btn-primary" onclick="handleClick('api/fake')">Request</button>
+                <button class="btn btn-primary" onclick="handleClick('api/article')">Tout afficher</button>
+                <button class="btn btn-primary" onclick="handleClick('api/article/1')">Afficher 1</button> 
+                <textarea class="form-control" id="api-rawRes" rows="3"></textarea>
         </div>
     </body>
 </html>

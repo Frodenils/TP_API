@@ -4,6 +4,7 @@ function handleClick(route) {
 
     axios.get(url).then((res) => {
         el.innerHTML = JSON.stringify(res.data);
+        //console.log(res.data)
     }).catch((err) => {
         console.error(err.message);
         el.innerHTML = err.message; // Print error
