@@ -1,0 +1,18 @@
+{
+    "articles": [{
+        "articleId": 1,
+        "_id": 0,
+        "name": "La bronchiolite mène la vie dure aux urgences pédiatriques de Rennes",
+        "content": "Les enfants touchés par la bronchiolite défilent aux urgences pédiatriques de l’hôpital Sud de Rennes (Ille-et-Vilaine). Avec des pics à 150 entrées par jour pour un service initialement dimensionné pour 70 passages quotidiens. Les temps d’attente peuvent d’ailleurs exploser, et aller jusqu’à 7 h."
+    }, {
+        "articleId": 2,
+        "_id": 1,
+        "name": "Stade Rennais. Une qualification, mais sans ambition",
+        "content": "​Déséquilibré dans son organisation, pas au niveau individuellement, le Stade Rennais a concédé un match nul décevant face à Larnaca (1-1). Ce sera donc la deuxième place du groupe B et un barrage qui s’annonce corsé en février."
+    }, {
+        "articleId": 3,
+        "_id": 2,
+        "name": "Philippe Croizon sera à Rennes lundi 7 novembre, invité d’un salon sur l’entrepreneuriat",
+        "content": "110 exposants seront présents au salon Entreprendre dans l’Ouest à Rennes, lundi 7 et mardi 8 novembre. Le salon de la franchise, Franchise Event, se tient en même temps. L’athlète et aventurier Philippe Croizon témoignera devant les dirigeants d’entreprises lundi 7 novembre."
+    }]
+}

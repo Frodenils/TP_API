@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>API – Send Fake API user</title>
+
+        <link rel="stylesheet" href="./main.css">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script defer src="./index.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="cols mb-md">
+                <nav class="bread">
+                    <ul>
+                        <li><a href="./index.html">Getting Started</a></li>
+                        <li><a href="./text.html">Step 1</a></li>
+                        <li class="active"><a href="./fake.html">Step 2</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="cols mb-md">
+                <h1>Send Fake API user</h1>
+                <p>Now you need to return a <b>JSON</b> of the <b>"/api/fake"</b> route (get all), remember to manage <b>errors</b>.</p>
+            </div>
+            <div class="cols mb-md">
+                <div class="inpt">
+                    <div id="api-rawRes"></div>
+                </div>
+            </div>
+            <div class="cols mb-md">
+                <button class="btn prm" onclick="handleClick('api/fake')">Request</button>
+            </div>
+            <div class="cols">
+                <a class="btn scnd" href="./fakeid.html">Next</a>
+            </div>
+        </div>
+    </body>
+</html>
